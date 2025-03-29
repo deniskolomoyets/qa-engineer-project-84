@@ -1,0 +1,15 @@
+---
+name: Denys Kolomoyets
+job: QA Engineer
+level: middle
+email: denisk@hexlet.io
+description: >
+  I'm passionate about programming and love exploring new
+  technologies — when I'm not coding, you’ll probably find me out on my bike
+  enjoying the ride.
+skills:
+  - Functional Testing
+  - Bug Reporting
+  - Linux
+  - JavaScript / React
+  - Backend Development
