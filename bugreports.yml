@@ -1,0 +1,26 @@
+---
+- summary: |
+    Некорректность работы клавишы «Next»
+  environment: |
+    Google Chrome   134.0.6998.166 (Official Build) (arm64)
+    MacOS Version 15.0.1
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Нажать клавишу «Next»
+  expected-result: |
+    На странице останется колонка для выбора бренда
+  actual-result: |
+    Колонка выбора бренда пропадает
+- summary: |
+    Не работает категории при переходе на следующую страницу
+  environment: |
+    Google Chrome   134.0.6998.166 (Official Build) (arm64)
+    MacOS Version 15.0.1
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Выбрать категорию "fragrances"
+    3. Нажать "Next"
+  expected-result: |
+    Переход на следующую страницу, возможность вернуться к выбору категорий
+  actual-result: |
+    Переход не работает, нет возможности вернутся к исходным категориям
